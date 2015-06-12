@@ -55,8 +55,8 @@ function sendMail(content,next) {
   var smtpTransport = nodemailer.createTransport({
         service: "QQ",
         auth: {
-            user: "271064579",
-            pass: "eep@liyipiao.com"
+            user: "YOUR QQ",
+            pass: "YouR QQ Password"
         }
     });
 
