@@ -62,8 +62,8 @@ function sendMail(content,next) {
 
     //邮件选项设置
     var mailOptions = {
-        from: "coolicer@foxmail.com", // 发件人地址
-        to: "liyipiao@163.com", //多个收件人用,分隔
+        from: "xxx", // 发件人地址
+        to: "zzz", //多个收件人用,分隔
         subject: content['series'], // 主题
         html: "<h1>" + content['number']+"</h1>"
     }
