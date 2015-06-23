@@ -56,14 +56,14 @@ function sendMail(content,next) {
         service: "QQ",
         auth: {
             user: "YOUR QQ",
-            pass: "YouR QQ Password"
+            pass: "YOUR QQ Password"
         }
     });
 
     //邮件选项设置
     var mailOptions = {
-        from: "coolicer@foxmail.com", // 发件人地址
-        to: "liyipiao@163.com", //多个收件人用,分隔
+        from: "", // 发件人地址
+        to: "", //多个收件人用,分隔
         subject: content['series'], // 主题
         html: "<h1>" + content['number']+"</h1>"
     }
