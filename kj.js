@@ -62,13 +62,8 @@ function sendMail(content,next) {
 
     //邮件选项设置
     var mailOptions = {
-<<<<<<< HEAD
         from: "", // 发件人地址
         to: "", //多个收件人用,分隔
-=======
-        from: "xxx", // 发件人地址
-        to: "zzz", //多个收件人用,分隔
->>>>>>> 18abdc757c4281696b9208577330c00e9e66ca28
         subject: content['series'], // 主题
         html: "<h1>" + content['number']+"</h1>"
     }
