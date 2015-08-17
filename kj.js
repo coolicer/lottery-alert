@@ -3,6 +3,7 @@ var iconv = require('iconv-lite');
 var request = require('request');
 var cheerio = require('cheerio');
 var nodemailer = require('nodemailer');
+var CronJob = require('cron').CronJob;
 
 var App = {
     form: process.env.app_form,
